@@ -1,3 +1,5 @@
+const { describe, it } = require("mocha");
+
 import * as anchor from "@coral-xyz/anchor";
 import { Program } from "@coral-xyz/anchor";
 import { TokenMetadata as AnchorTokenMetadata } from "../target/types/token_metadata";
